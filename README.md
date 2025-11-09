@@ -60,7 +60,6 @@ minishell$ echo "Welcome to Minishell!"
 Welcome to Minishell!
 minishell$ pwd
 /home/qaneee/Minishell
-minishell$ ls | grep minishell
-minishell.c
-minishell$
+minishell$ export GHOST=123 | env | grep GHOST
+minishell$ cat < Makefile
 ```
