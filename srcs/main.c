@@ -74,7 +74,12 @@ int	main(int argc, char **argv, char **envp)
 	t_command_vector	commands;
 	t_env				*env;
 
-	(void)(argv + argc);
+	(void)(argv);
+	if (argc != 1)
+	{
+		printf ("Wrong argument count!\n");
+		return (1);
+	}
 	env = init_env(envp);
 	while (1)
 	{
