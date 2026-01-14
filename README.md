@@ -1,6 +1,6 @@
 # Minishell
 
-**Minishell** is a group project developed by me and Ilya (ipogodae)
+**Minishell** is a group project developed by me and ipogodae
 
 This repository contains our implementation of a simplified shell (“minishell”) as typically required in a C curriculum project (such as 42 School). Minishell is a command-line interpreter that mimics basic command parsing and execution, similar to Bash, but with limited built-in functionality, written in C.
 
